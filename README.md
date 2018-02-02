@@ -4,16 +4,16 @@
 
 Вот, что должно получиться в результате (не очень красиво, зато прочно =D)
 
-[!ScrollView Adapter 3 колонки](https://github.com/droganaida/tests_croll_view_columns/blob/master/Screens/usc-1.jpg)
+![ScrollView Adapter 3 колонки](https://github.com/droganaida/tests_croll_view_columns/blob/master/Screens/usc-1.jpg)
 
 Нужно изменить существующий prefab для элемента списка так, чтобы в нем появилось 3 колонки (или любое другое количество текстовых полей, картинок и кнопок).
 Объединяем 3 компонента UI->Text в компоненте UI->Image.
 
-[!ScrollView Adapter 3 колонки prefab](https://github.com/droganaida/tests_croll_view_columns/blob/master/Screens/usc-2.jpg)
+![ScrollView Adapter 3 колонки prefab](https://github.com/droganaida/tests_croll_view_columns/blob/master/Screens/usc-2.jpg)
 
 Отправляем новый шаблон в скрипт. Теперь все айтемы скроллера будут иметь по три текстовых поля.
 
-[!ScrollView Adapter 3 колонки script variable](https://github.com/droganaida/tests_croll_view_columns/blob/master/Screens/usc-3.jpg)
+![ScrollView Adapter 3 колонки script variable](https://github.com/droganaida/tests_croll_view_columns/blob/master/Screens/usc-3.jpg)
 
 Логика заполнения списка здесь:
 [ScrollViewAdapter.cs](https://github.com/droganaida/tests_croll_view_columns/blob/master/Assets/Scripts/ScrollViewAdapter.cs)
